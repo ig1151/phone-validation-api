@@ -1,4 +1,4 @@
-import { parsePhoneNumber, isValidPhoneNumber, isPossiblePhoneNumber, getCountries, getCountryCallingCode, parsePhoneNumberFromString } from 'libphonenumber-js';
+import { getCountryCallingCode, parsePhoneNumberFromString } from 'libphonenumber-js';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../utils/logger';
 import type { ValidateRequest, ValidationResult, LineType } from '../types/index';
